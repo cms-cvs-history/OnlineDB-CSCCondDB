@@ -6,13 +6,13 @@ es_source cscConditions = PoolDBESSource
     using CondDBSetup
     VPSet toGet = {
 	{ string record = "CSCChamberMapRcd"
-          string tag = "CSCChamberMap_test"},
+          string tag = "CSCChamberMap"},
         {string record = "CSCChamberIndexRcd"
-          string tag = "CSCChamberIndex_test"},
+          string tag = "CSCChamberIndex"},
         {string record = "CSCCrateMapRcd"
-          string tag = "CSCCrateMap_test"},
+          string tag = "CSCCrateMap"},
         {string record = "CSCDDUMapRcd"
-	 string tag = "CSCDDUMap_test"} 
+	 string tag = "CSCDDUMap"} 
      }
 
     string connect = "frontier://FrontierDev/CMS_COND_ALIGNMENT"
