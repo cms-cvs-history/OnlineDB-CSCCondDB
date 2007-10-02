@@ -1,17 +1,13 @@
 #!/usr/local/bin/perl
 
-#  -KF
-
-
-open(RUNFILE, "filelist.txt");
+open(RUNFILE, "tempFile.txt");
 
 @runs = readline(RUNFILE);
 close(RUNFILE);
 
 foreach $run (@runs)  
 {
-#from 40 -KF
-if( $run =~ "Gains" ){$runName = substr($run,0,46)}
+if( $run =~ "Gains" ){$runName = substr($run,0,40)}
 else {$runName = substr($run,0,39)};
 
 $runName = "/tmp/csccalib/" . $runName;

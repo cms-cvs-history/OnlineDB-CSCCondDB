@@ -12,7 +12,7 @@
     char* c_pass = ::getenv("CSCMAP_AUTH_PASSWORD");
     db_user=std::string(c_user);
     db_pass=std::string(c_pass);
-    con = env->createConnection (db_user,db_pass,"omds");
+    con = env->createConnection (db_user,db_pass,"devdb");
      std::cout << "Connection to mapping DB is done." << std::endl;
   }// end of constructor cscmap1 ()
 
