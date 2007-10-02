@@ -15,12 +15,12 @@ es_source cscConditions = PoolDBESSource
 #	 string tag = "CSCDDUMap_test"} 
      }
 
-    string connect = "frontier://FrontierDev/CMS_COND_ALIGNMENT"
+#    string connect = "frontier://FrontierDev/CMS_COND_ALIGNMENT"
     untracked bool siteLocalConfig = true
     string timetype = "runnumber"
-    # string connect = "oracle://cms_orcoff_int2r/CMS_COND_CSC"
-    #PSet DBParameters = {
-    #		  untracked string authenticationPath="/afs/cern.ch/cms/DB/conddb"}
-    #untracked uint32 authenticationMethod = 1
-    #untracked uint32 messagelevel = 0 
+    string connect = "oracle://cms_orcoff_int2r/CMS_COND_CSC"
+    PSet DBParameters = {
+    		  untracked string authenticationPath="/afs/cern.ch/cms/DB/conddb"}
+    untracked uint32 authenticationMethod = 1
+    untracked uint32 messagelevel = 0 
 }
