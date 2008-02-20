@@ -10,7 +10,7 @@ es_source cscConditions = PoolDBESSource
         {string record = "CSCChamberIndexRcd"
           string tag = "CSCChamberIndex"},
         {string record = "CSCCrateMapRcd"
-          string tag = "CSCCrateMap"}
+          string tag = "CSCCrateMap"},
         {string record = "CSCDDUMapRcd"
 	 string tag = "CSCDDUMap"} 
      }
